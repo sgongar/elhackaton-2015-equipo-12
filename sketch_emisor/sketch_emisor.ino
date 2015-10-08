@@ -46,7 +46,7 @@ void loop()
     {
       if (flag == 0)
       {
-        Serial.println("hola receptor");
+        Serial.println("Signal emitted");
         digitalWrite(ledPin, HIGH);
         flag_state = 0;
       }
@@ -57,7 +57,7 @@ void loop()
       digitalWrite(ledPin, LOW);
       if(flag == 0)
       {
-        Serial.println("LED: off");
+        Serial.println("Signal reset");
         flag = 1;
       }
     } 
