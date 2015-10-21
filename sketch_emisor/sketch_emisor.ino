@@ -3,8 +3,6 @@
 #define RX_PIN 0
 #define TX_PIN 1
 
-// SoftwareSerial BT(RX_PIN, TX_PIN);
-
 int interruptor = 2;
 int ledPin = 3;
 char texto;
